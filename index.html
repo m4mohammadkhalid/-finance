@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" data-cookies-popup="true">
+<head>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Title -->
+<title>Fast Loan Finance</title>
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i%7CPoppins:300,400,500,600" rel="stylesheet">
+
+<!-- CSS Styles -->
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<!-- CSS Base -->
+<link id="theme" rel="stylesheet" href="assets/css/themes/theme-credit.css" />
+
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="page-loader"><svg class="loader-1" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle class="circle-1" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="15"></circle><circle class="circle-2" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="15"></circle></svg></div>
+<!-- Loader / End -->
+
+<!-- Body Wrapper -->
+<div id="body-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="fullwidth light">
+        
+        <div id="nav-bar">
+            <div class="row">
+                <div class="col-sm-2 col-xs-5">
+                    <!-- Logo -->
+                    <a href="index.html" class="logo"><img src="assets/img/logo-dark.png" alt=""></a>   
+                </div>
+                <div class="menu col-sm-8 col-xs-2 text-right">
+                    <!-- Main Menu -->
+                    <nav id="main-menu">
+                        <ul id="nav-primary" class="nav nav-primary">
+                            <li class="dropdown-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Pages</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Elements</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Case Studies</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li><a href="#">Docs</a></li>
+                        </ul>
+                    </nav>
+                </div>  
+                <div class="col-sm-2 col-xs-5">
+                    <!-- Mobile Nav Toggle -->
+                    <div class="module right hidden-lg">
+                        <a href="#" id="mobile-nav-toggle" class="nav-toggle"><span><span></span></span></a>
+                    </div>
+                    <!-- Search -->
+                    
+                    <!-- Language -->
+                    
+                </div>
+            </div> 
+        </div>
+
+    </header>
+    <!-- Header / End -->
+
+    <!-- Content -->
+    <div id="content">
+
+        <!-- Section -->
+        <section id="intro" class="dark">
+
+            <!-- BG Slideshow -->
+            <div class="bg-slideshow">
+                <div class="bg-image"><img src="assets/img/photos/creditUnion_bg01.jpg" alt=""></div>   
+                <div class="bg-image"><img src="assets/img/photos/creditUnion_bg05.jpg" alt=""></div>   
+                <div class="bg-image"><img src="assets/img/photos/creditUnion_bg06.jpg" alt=""></div>   
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1 class="mb-0">Need <em>some</em> cash?</h1>
+                        <p class="lead text-muted mb-40">Send a request and we will contact us within 24 hours!</p>
+                        <form id="calculatorExample1" action="#" class="validate-form">
+                            <!-- Form Item -->
+                            <div class="form-group">
+                                <label>How much money do you need? (Indian Rupees)</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">Rs</div>
+                                    <input id="moneyAmount" type="number" class="form-control slider-control input-lg" value="1000" min="100" max="10000" data-slider="#moneySlider" required>
+                                </div>
+                                <div id="moneySlider" class="form-slider" data-input="#moneyAmount" data-min="200" data-max="10000" data-value="1000"></div>
+                            </div>
+                            <!-- Form Item -->
+                            <div class="form-group">
+                                <label>How long? (months)</label>
+                                <div class="input-group">
+                                    <input id="monthNumber" type="number" class="form-control slider-control input-lg" value="24" min="6" max="96" data-slider="#monthSlider" required>
+                                    <div class="input-group-addon">months</div>
+                                </div>
+                                <div id="monthSlider" class="form-slider" data-input="#monthNumber" data-min="6" data-max="96" data-value="24"></div>
+                            </div>
+                            <!-- Form Item -->
+                            <div class="form-group">
+                                <label>Are you our client?</label>
+                                <!-- Radio -->
+                                <div class="radio radio-inline">
+                                    <input type="radio" id="clientTrue" name="isClient" value="true" checked>
+                                    <label for="clientTrue">Yes</label>
+                                </div>
+                                <!-- Radio -->
+                                <div class="radio radio-inline">
+                                    <input type="radio" id="clientFalse" name="isClient" value="false">
+                                    <label for="clientFalse">No</label>
+                                </div>
+                            </div>
+                            <!-- Form Item -->
+                            <div class="form-group">
+                                <label>Monthly repayment</label>
+                                <span id="formResult" class="form-total">Rs<span>262.99</span></span>
+                            </div>
+                            <div class="form-group form-submit">
+                                <button type="submit" class="btn-submit btn-lg"><span>Send a request!</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Section -->
+        <section id="primary-features">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2 animated" data-animation="fadeIn">
+                            <span class="icon icon-primary"><i class="pe-7s-display1"></i></span>
+                            <div class="feature-content">
+                                <h5>Available on the Internet</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2 animated" data-animation="fadeIn" data-animation-delay="300">
+                            <span class="icon icon-primary"><i class="pe-7s-diamond"></i></span>
+                            <div class="feature-content">
+                                <h5>The loan even during one visit</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2 animated" data-animation="fadeIn" data-animation-delay="600">
+                            <span class="icon icon-primary"><i class="pe-7s-like"></i></span>
+                            <div class="feature-content">
+                                <h5>Money for any purpose</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section -->
+        <section id="services" class="section-bg-edge right">
+
+            <div class="relative container">
+                <h2 class="text-center mb-0"><em>What</em> do you need?</h2>
+                <p class="text-center text-muted lead mb-60">Check our full offer and pick perfect credit for you!</p>
+
+                <nav class="text-center">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills mb-60" role="tablist">
+                        <li class="active"><a href="#cashLoan" role="tab" data-toggle="tab"><i class="ti-wallet"></i>Personal Loan</a></li>
+                        <li><a href="#mortgageCredit" role="tab" data-toggle="tab"><i class="ti-home"></i>NBFC Loan</a></li>
+                        <li><a href="#consumerCredit" role="tab" data-toggle="tab"><i class="ti-bag"></i>Bank Loan</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Tabs -->
+            <div class="tab-content">
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane active fade in" id="cashLoan">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/creditUnion_bg02.jpg" alt=""></div>
+                    </div>
+
+                    <div class="container">
+                        <div class="col-md-6 pt-0">
+                            <h2>Get <em>cash loan</em> in 5 minutes!</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn">
+                                        <span class="number text-primary">5%</span>
+                                        <h5>Credit Interests</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="200">
+                                        <span class="number text-secondary">12-96</span>
+                                        <h5>Months of Repayment</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="mb-15">Interested in our <span class="text-primary">Cash Loan</span>?</h5>
+                            <a href="#" class="btn btn-secondary btn-sm">Get in now!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane fade" id="mortgageCredit">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/creditUnion_bg03.jpg" alt=""></div>
+                    </div>
+
+                    <div class="container">
+                        <div class="col-md-6 pt-0">
+                            <h2>Make your <em>dreams</em> come true with Us!</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn">
+                                        <span class="number text-primary">6%</span>
+                                        <h5>Cretit Interests</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="400">
+                                        <span class="number text-secondary">10-35</span>
+                                        <h5>Years of repayment</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="mb-15">Interested in our <span class="text-primary">Martgage Credit</span>?</h5>
+                            <a href="#" class="btn btn-secondary btn-sm">Get in now!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tab - single -->
+                <div role="tabpanel" class="tab-pane fade" id="consumerCredit">
+                    <div class="image col-md-8 col-md-push-4">
+                        <div class="bg-image top"><img src="assets/img/photos/creditUnion_bg04.jpg" alt=""></div>
+                    </div>
+
+                    <div class="container">
+                        <div class="col-md-6 pt-0">
+                            <h2>Easy to get <em>consumer credit</em> for everyone!</h2>
+                            <p class="lead text-muted mb-50">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie, urna turpis tempor elit, in congue tellus lacus eget enim.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn">
+                                        <span class="number text-primary">5%</span>
+                                        <h5>Credit Interests</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="counter counter-3 animated" data-animation="fadeIn" data-animation-delay="200">
+                                        <span class="number text-secondary">12-96</span>
+                                        <h5>Months of Repayment</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="mb-15">Interested in our <span class="text-primary">Consumer Credit</span>?</h5>
+                            <a href="#" class="btn btn-secondary btn-sm">Get in now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section -->
+        <section id="secondary-features" class="bg-primary dark">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2">
+                            <span class="icon icon-default"><i class="pe-7s-display1"></i></span>
+                            <div class="feature-content">
+                                <h5>Insure your loan</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2">
+                            <span class="icon icon-default"><i class="pe-7s-diamond"></i></span>
+                            <div class="feature-content">
+                                <h5>Low credit interest</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="feature feature-2">
+                            <span class="icon icon-default"><i class="pe-7s-like"></i></span>
+                            <div class="feature-content">
+                                <h5>You decide!</h5>
+                                <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section -->
+        <section id="how-it-works">
+
+            <div class="container">
+                <h2 class="text-center mb-0"><em>How</em> does it works?</h2>
+                <p class="text-center text-muted lead mb-80">Check our full offer and pick perfect credit for you!</p>
+
+                <div class="row mb-60">
+                    <div class="col-md-6">
+                        <!-- Accordion -->
+                        <div class="panel-group" role="tablist" aria-multiselectable="true">
+                            <!-- Panel -->
+                            <div class="panel panel-2">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapseOneAlt" aria-expanded="false">How does it works?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOneAlt" class="panel-collapse collapse" role="tabpanel">
+                                    <div class="panel-body">
+                                        <p class="lead">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt.</p>
+                                        <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel -->
+                            <div class="panel panel-2">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapseTwoAlt" aria-expanded="false">How long we will consider your request?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwoAlt" class="panel-collapse collapse" role="tabpanel">
+                                    <div class="panel-body">
+                                        <p class="lead">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt.</p>
+                                        <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel -->
+                            <div class="panel panel-2">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapseThreeAlt" aria-expanded="false">Required documents</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThreeAlt" class="panel-collapse collapse" role="tabpanel">
+                                    <div class="panel-body">
+                                        <p class="lead">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt.</p>
+                                        <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel -->
+                            <div class="panel panel-2">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapseFourAlt" aria-expanded="false">How does it works?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFourAlt" class="panel-collapse collapse" role="tabpanel">
+                                    <div class="panel-body">
+                                        <p class="lead">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt.</p>
+                                        <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Panel -->
+                            <div class="panel panel-2">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#collapseFiveAlt" aria-expanded="false">How is the credit insurance real cost?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFiveAlt" class="panel-collapse collapse" role="tabpanel">
+                                    <div class="panel-body">
+                                        <p class="lead">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt.</p>
+                                        <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Video Box -->
+                        <div class="video-box placeholder-image text-center shadow">
+                            <div class="image">
+                                <img src="assets/img/photos/creditUnion_photo01.jpg" alt="">
+                            </div>
+                            <a href="https://www.youtube.com/embed/uVju5--RqtY?rel=0&autoplay=1" class="btn-play"></a>
+                        </div>
+                    </div>        
+                </div>  
+
+                <p class="lead text-center text-muted mb-60">as you can see it is simple and very easy...</p>
+
+                <div class="row workflow-steps">
+                    <span class="workflow-progress animated"></span>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="step feature feature-1 text-center animated" data-animation-delay="500">
+                            <span class="icon icon-white icon-circle"><i class="pe-7s-mouse"></i></span>
+                            <h5>1. Send a request</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="step feature feature-1 text-center animated" data-animation-delay="1900">
+                            <span class="icon icon-white icon-circle"><i class="pe-7s-pen"></i></span>
+                            <h5>2. Get our decision</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Feature -->
+                        <div class="step feature feature-1 text-center animated" data-animation-delay="3300">
+                            <span class="icon icon-white icon-circle"><i class="pe-7s-plane"></i></span>
+                            <h5>3. Spent you money!</h5>
+                            <p class="text-muted">Quisque ac augue vitae lorem mollis tempor. Vivamus laoreet, dolor et commodo molestie.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </div>
+    <!-- Content / End -->
+
+    <!-- Footer -->
+    <footer id="footer" class="dark bg-dark">
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <!-- Widget - Logo -->
+                    <div class="widget widget-logo text-center">
+                        <img class="logo logo-dark" width="111" src="assets/img/logo-light.png" alt="Okno">
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                        <nav>
+                            <ul class="nav nav-horizontal">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Refunds</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr class="sep-line mt-40 mb-50">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <!-- Widget - Recent posts -->
+                            <div class="widget widget-recent-posts">
+                                <h5 class="text-muted">Recent Posts</h5>
+                                <ul class="list-posts">
+                                    <li>
+                                        <a href="#">Crazy developer ideas on 2016</a>
+                                        <span class="date">February 14, 2015</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our road trip to London!</a>
+                                        <span class="date">February 14, 2015</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">New iOS design concept</a>
+                                        <span class="date">February 14, 2015</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Widget - Newsletter -->
+                            <div class="widget widget-newsletter">
+                                <h5 class="text-muted">Subscribe Us</h5>
+                                <form action="//suelo.us12.list-manage.com/subscribe/post-json?u=ed47dbfe167d906f2bc46a01b&amp;id=24ac8a22ad" id="sign-up-form" class="sign-up-form validate-form" method="POST"
+                                    data-message-error="Opps... Something went wrong - please try again later"
+                                    data-message-success="Yeah! You will recieve a confirmation email soon..."
+                                >
+                                    <div class="form-group">
+                                        <input type="email"  name="EMAIL" id="mce-EMAIL" value="" class="form-control input-sm" placeholder="Your e-mail..." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn-submit btn-sm"><span>Sign Up</span><span class="loader-2"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- Widget - Twitter -->
+                            <div class="widget widget-twitter">
+                                <h5 class="text-muted">Latest Tweets</h5>
+                                <div class="twitter-feed" data-count="3"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- Widget - Contact -->
+                            <div class="widget widget-contact">
+                                <h5 class="text-muted">Contact Us</h5>
+                                <img src="assets/img/photos/location_min.jpg" alt="" class="img-rounded mb-20">
+                                <address>
+                                    <span class="text-muted">Address:</span><br>
+                                    New Delhi, Suite 600<br>
+                                    San Noida, Sec 94107<br><br>
+                                    <span class="text-muted">Phone:</span><br>
+                                    +91 9102603030<br><br>
+                                    <span class="text-muted">E-mail:</span><br>
+                                    khalid@gmail.com<br>
+                                </address>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-md-push-3">
+                        <span class="text-muted">Copyright  Fast Loan Finance 2020©. Made by <a href="#">Code Sparrow</a> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer / End -->
+
+</div>
+<!-- Body Wrapper / End -->
+
+<!-- Search Popup -->
+<div id="search-popup" class="light">
+    <form id="search-form" action="#">
+        <input type="text" class="search-input" placeholder="What are you looking for?">
+        <button type="submit" class="search-submit"><i class="ti-search"></i></button>
+    </form>
+</div>
+
+<!-- Notification Bar -->
+<div id="notification-bar">Yeah! You will recieve a confirmation email soon...</div>
+
+<!-- Back to top -->
+<a href="#" id="back-to-top"><i class="ti-angle-up"></i></a>
+
+<!-- Modal / Video -->
+<div class="modal modal-video fade" id="modalVideo" role="dialog">
+    <button class="close" data-dismiss="modal"><i class="ti-close"></i></button>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <iframe height="500"></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- JS Libraries -->
+<script src="assets/js/jquery-1.12.3.min.js"></script>
+
+<!-- JS Plugins -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- JS Core -->
+<script src="assets/js/core.js"></script>
+
+<!-- JS Calculator Example #1 -->
+<script>
+    
+    var $calculatorExample1 = $('#calculatorExample1');
+
+    function calculatorExample1() {
+
+        var moneyAmount = $('#moneyAmount').val(),
+            monthNumber = $('#monthNumber').val(),
+            calcRate;
+            
+        if($('#clientTrue').is(':checked')) calcRate = 1.08;
+        else calcRate = 1.1;
+
+        var result = moneyAmount / monthNumber * calcRate;
+
+        $('#formResult > span').html(result.toFixed(2));
+
+    }
+
+    calculatorExample1();
+
+    $calculatorExample1.find('input').on('change', function(){
+
+        calculatorExample1();
+
+    });
+
+</script>
+
+</body>
+
+</html>
